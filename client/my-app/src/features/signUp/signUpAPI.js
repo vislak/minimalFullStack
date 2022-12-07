@@ -5,9 +5,6 @@ const api = axios.create({
 })
 
 export const createUser = payload => api.post(`/signUp`, payload)
-
-
-
 const apis = {
     createUser
   

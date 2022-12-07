@@ -5,6 +5,7 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import TestComp from './TestComp';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -13,6 +14,7 @@ root.render(
 
     <Provider store={store}>
       <App />
+      {/* <TestComp/> */}
     </Provider>
  
 );
