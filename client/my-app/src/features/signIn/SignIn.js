@@ -32,7 +32,7 @@ const SignIn = () => {
         console.log("submit ", { signIn });
         userSignIn(signIn).then(res => { 
 
-            if(res.data.success)
+            if(res?.status === 200)
             {
                 console.log(res.data);
                 //store the token in local storage (not recom)

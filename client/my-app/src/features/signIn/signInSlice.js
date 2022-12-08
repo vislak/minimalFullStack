@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 const initialState = {
-    userName: "Abc",    
-    password:"",
+    userName: "visluck",    
+    password:"123",
     isSigned:false
 };
 

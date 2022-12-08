@@ -14,7 +14,7 @@ import styles from './Counter.module.css';
 import axios  from 'axios'
 import { useEffect } from 'react';
 
-export function Counter() {
+ function Counter() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
   const [incrementAmount, setIncrementAmount] = useState('2');
@@ -78,3 +78,5 @@ export function Counter() {
     </div>
   );
 }
+
+export default Counter;
